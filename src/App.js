@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import PostContainer from './components/PostContainer';
 import './App.css';
 
 class App extends Component {
@@ -16,7 +17,9 @@ class App extends Component {
       <div className="App">
         <header>
           <h1>My Fuego Takes</h1>
+          <button>New Post</button>
         </header>
+        <PostContainer posts={this.state.posts} />
       </div>
     )
     }
