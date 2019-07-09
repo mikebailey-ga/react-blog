@@ -6,5 +6,18 @@ Steps:
 - setup config/database.js
 - npm run build
 - create model
+- make sample data in repl
+- good time for a push
+- require/use api router in server.js
+- create api.js, references controller (index function)
+- create controller (index function)
 
+
+- Setup app.js
+  - make state 
+  - turn into a class that extends component
+  - componentdidmount, fetch API
+  - render function
+
+- test to see if you can see state in dev tools. Good time to push
 
