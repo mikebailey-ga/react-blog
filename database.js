@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/Score',
+mongoose.connect('mongodb://localhost/Blog',
     {useNewUrlParser: true}
 );
 

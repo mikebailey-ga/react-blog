@@ -1,0 +1,10 @@
+Steps:
+
+- install packages
+- proxy in package.json
+- setup server.js
+- setup config/database.js
+- npm run build
+- create model
+
+
