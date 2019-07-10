@@ -1,4 +1,6 @@
-Steps:
+ORDER OF OPERATIONS DONE IN CLASS
+
+EXPRESS:
 
 - install packages
 - proxy in package.json
@@ -12,13 +14,14 @@ Steps:
 - create api.js, references controller (index function)
 - create controller (index function)
 
+REACT:
 
 - Setup app.js
   - make state 
   - turn into a class that extends component
   - componentdidmount, fetch API
   - render function
-
 - test to see if you can see state in dev tools. Good time to push
-
-- create Component to display api data
+- create Component tree to display api data (App > PostContainer > Post)
+- making a new post (TBD)
+- make a fetch post request
